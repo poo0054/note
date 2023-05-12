@@ -134,9 +134,9 @@ collation-server=utf8_unicode_ci
 skip-character-set-client-handshake
 skip-name-resolve
 
-docker restart mysql
 ```
 
+docker restart mysql
 > docker update mysql--restart=always
 
 # Redis
@@ -162,10 +162,9 @@ vim /mydata/redis/conf/redis.conf
 # 插入下面内容
 appendonly yes
 #保存
-
-docker restart redis
 ```
 
+docker restart redis
 > docker update redis --restart=always
 
 # nginx
