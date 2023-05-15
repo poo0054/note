@@ -22,4 +22,6 @@ DNS2="8.8.8.8"
 service network restart
 ```
 
-#允许密码登录
+# 更新yum
+
+[阿里云](https://developer.aliyun.com/mirror/centos?spm=a2c6h.13651102.0.0.50641b113cOAjU)
