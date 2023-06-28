@@ -8,9 +8,10 @@ parsers: # array
         - DOMAIN-KEYWORD,openai.com,GLOBAL
         # ChatGPT
         - DOMAIN-SUFFIX,openai.com, GLOBAL
-        - DOMAIN-SUFFIX,openaiapi-site.azureedge.net, GLOBAL
-        - DOMAIN-SUFFIX,identrust.com, GLOBAL
-        - DOMAIN-SUFFIX,autho.com, GLOBAL
-        - DOMAIN-SUFFIX,cloudflare.com, GLOBAL
-        - DOMAIN-SUFFIX,freenom.com, GLOBAL
+        - DOMAIN-SUFFIX,azureedge.net, GLOBAL
+        - DOMAIN-SUFFIX,intercom.io, GLOBAL
+        - DOMAIN-SUFFIX,stripe.com, GLOBAL
+        - DOMAIN-SUFFIX,intercomcdn.com, GLOBAL
+        - DOMAIN-SUFFIX,stripe.network, GLOBAL
+        - DOMAIN-SUFFIX,stripe.com, GLOBAL
 ```
