@@ -349,3 +349,16 @@ output {
 #  path.config: "/usr/share/logstash/pipeline"
 ```
 
+> sonarqube
+
+```docker
+docker run -d --name sonarqube \
+-p 9000:9000 \
+-e "SONAR_JDBC_URL=jdbc:postgresql://192.168.0.98:5432/sonar" \
+-e SONAR_JDBC_USERNAME=postgres \
+-e SONAR_JDBC_PASSWORD=root  \
+-v /data/sonarqube/data:/opt/sonarqube/data \
+-v /data/sonarqube/extensions:/opt/sonarqube/extensions \
+-v /data/sonarqube/logs:/opt/sonarqube/logs \
+sonarqube:9.9.1-community
+```
